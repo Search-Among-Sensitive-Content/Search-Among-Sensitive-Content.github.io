@@ -1,3 +1,9 @@
-## Search Among Sensitive Content
+Graham McDonald
+University of Glasgow, UK
+graham.mcdonald@glasgow.ac.uk
 
-# ECIR 2021 tutorial 
+and
+
+Douglas W. Oard
+University of Maryland, USA
+oard@umd.edu

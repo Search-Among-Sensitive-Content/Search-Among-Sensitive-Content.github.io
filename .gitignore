@@ -1,0 +1,5 @@
+.venv/
+pythonenv*/
+_site/
+.jekyll-metadata
+*.DS_Store

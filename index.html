@@ -1,0 +1,109 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Scrolling Nav - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">About The Tutorial</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white">
+    <div class="container text-center">
+      <h1>Search Among Sensitive Content</h1>
+      <p class="lead">ECIR 2021 Tutorial</p>
+      <p>Organisers:</p>
+      <p>Graham McDonald, University of Glasgow, UK, graham.mcdonald@glasgow.ac.uk</p>
+      <p>Douglas W. Oard, University of Maryland, USA, oard@umd.edu</p>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Resources:</h2>
+          <!-- <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p> -->
+          <ul>
+            <li>Tutorial Slides (Available during the tutorial.)</li>
+            <li>A reading list is available <a href="SACS-Reading-List.pdf" target="_blank">here</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>About The Tutorial</h2>
+          <p class="lead">
+            Information retrieval (IR) systems provide access to large amounts of content, some of which may be personal, confidential, or otherwise sensitive. While some information protection is legislated, e.g., through the European Union’s General Data Protection Regulation (GDPR) or disclosure exemptions in Freedom of Information Acts; other cases are regulated only by social expectations. Information retrieval research has traditionally focused on finding indexed content. However, the increased intermixing of sensitive content with content that can properly be disclosed now motivates research on systems that can balance multiple interests: serving the searcher’s interest in finding content while serving other stakeholders’ interests in appropriately protecting their sensitive information.<br><br>
+            If the content requiring protection were marked, protecting it would be straightforward. There are, however, many cases in which sensitive content must be discovered before it can be protected. Discovering such sensitivities ranges in complexity from detection of personally identifiable information (PII), to automated text classification for sensitive content, to human-in-the-loop techniques for identifying sensitivities that result from the context in which the information was produced.<br><br>
+            Once discovered, IR systems can use the results of sensitivity decisions to fil- ter search results, or such systems can be designed to balance the risks of missing relevant content with the risks of disclosing sensitive content. Optimising sensitivity-aware IR systems’ performance depends on how well the sensitivity classification works, and requires development of new evaluation measures. Moreover, the evaluation of such IR systems requires new test collections that contain (actual or simulated) sensitive content, and when actual sensitive content is used secure ways of evaluating retrieval algorithms (e.g., algorithm deposit or trusted online evaluation) are needed. Where untrusted data centres provide services, encrypted search may also be needed. Many of these components rely on algorithmic privacy guarantees, such as those provided by k-anonymity, L-diversity, t-closeness or differential privacy.<br><br>
+            This tutorial will introduce these challenges, review work to date on each aspect of the problem, describe current best practices, and identify open research questions. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; SASC 2021</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
